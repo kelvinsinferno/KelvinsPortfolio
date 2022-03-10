@@ -1,0 +1,274 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    background-color: #1b1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: auto;
+    }
+        #header {
+            display: flex;
+            text-align: left;
+            color: gold;
+            font-size: 60px;
+        }
+/* Upper Nav bar */
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 60px;
+            color:rgb(26, 160, 44);    
+        }
+            #a {color:rgb(26, 160, 44); 
+                padding-left: 20px;
+            }
+            #b {color:rgb(26, 160, 44); 
+                padding-left: 20px;
+            }
+            #c {color:rgb(26, 160, 44); 
+                padding-left: 20px;
+            }
+            #d {color:rgb(26, 160, 44); 
+                padding-left: 20px;
+            } 
+/* hero Image */
+        .hero {
+            height: 300px;
+            width: 100%;
+            margin-bottom: 25px;
+            background-image: url("../assets/images/heroImage.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+            #subtitle {
+                color: rgb(26, 160,44);
+                text-align: right;
+                margin-top: 250px;
+                background-color: #1b1b1b;
+            }
+            
+/* about Section*/
+    .section1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 25px;
+    }
+        .about {
+            border-right: solid 5px gold;
+            width: 350px;
+        }
+            #about {
+                display: flex;
+                align-items: flex-star;
+                color: gold;
+                font-size: 50px;          
+                padding: 50px;
+            }
+                .aboutParagraph {
+                    color: rgb(26, 160, 44);
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 30px;
+                    margin-left: 55px;
+                }
+                    #aboutImg {
+                        height: 200px;
+                        width: 200px;
+                        margin:25px;
+                        border: solid gold 5px;
+                    }
+
+/*projects section*/
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: left;
+    }
+        .projects {
+            border-right: solid 5px gold;
+            width: 350px;
+        }
+            #projects {
+                color: gold;
+                font-size: 50px;
+                padding: 50px;
+            }
+/* large card */
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+        }
+            .cardSectionOne {
+                flex: 0 0 50%;
+                margin-left: 55px;
+            }
+                .project1{
+                    flex-direction: column;
+                    justify-content: left;
+                    height: 600px;   
+                    margin: 25px;   
+                }
+                    #project1img {
+                        width: 100%;
+                        border: solid 5px gold;
+                        height: 500px;
+                    }
+                    .project1info{
+                        padding-left: 10px;
+                        box-sizing: border-box;
+                        background-color: #1b1b1b;
+                    }
+                        #project1 {
+                            color: gold;
+                            font-size: 30px;  
+                        }
+                            #p1sub {
+                                color: whitesmoke;
+                                font-size: 20px;    
+                            }
+/* Smaller cards */
+            .cardSectionTwo {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin-left: 35px;
+                margin-top: 25px;
+            }
+                .project2 {
+                    flex: 0 0 44.5%;
+                    margin: 10px;
+                }
+                    #project2img {
+                        width: 100%;
+                        border: solid 5px gold;          
+                    }
+                    .project2info{
+                        padding-left: 10px;
+                        background-color: #1b1b1b;
+                    }
+                        #project2 {
+                            color: gold;
+                            font-size: 30px;    
+                        }
+                            #p2sub {
+                                color: whitesmoke;
+                                font-size: 20px;
+                            }
+
+                .project3 {
+                    flex: 0 0 44.5%;
+                    margin: 10px;
+                }
+                    #project3img {
+                        width: 100%;
+                        border: solid 5px gold;
+                    }
+                    .project3info{
+                        padding-left: 10px;
+                        background-color: #1b1b1b;
+                    }
+                        #project3 {
+                            color: gold;
+                            font-size: 30px;
+                        }
+                            #p3sub {
+                                color: whitesmoke;
+                                font-size: 20px;
+                           }
+
+
+                .project4 {
+                    flex: 0 0 44.5%;
+                    margin: 10px;
+                }
+                    #project4img {
+                        width: 100%;
+                        border: solid 5px gold;
+                    }
+                    .project4info{
+                        padding-left: 10px;
+                        background-color: #1b1b1b;  
+                    }
+                        #project4 {
+                            color: gold;
+                            font-size: 30px;
+                        }
+                            #p4sub {
+                                color: whitesmoke;
+                                font-size: 20px;
+                            }
+
+                .project5 {
+                    flex: 0 0 44.5%;
+                    margin: 10px;
+                }
+                    #project5img {
+                        width: 100%;
+                        border: solid 5px gold;
+                    }
+                    .project5info{
+                        padding-left: 10px;
+                        background-color: #1b1b1b;  
+                    }
+                        #project5 {
+                            color: gold;
+                            font-size: 30px;
+                        }
+                            #p5sub {
+                                color: whitesmoke;
+                                font-size: 20px;
+                            }
+
+/*footer section*/
+    .footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 25px;
+        height: 200;
+    }
+        .contact {
+        width: 350px;
+        }
+            #contact {
+                color: gold;
+                font-size: 50px;
+                border-right: solid 5px gold;
+                padding: 50px;
+                flex-direction: column;
+            }
+        .links {
+        flex: 0 0 40%;
+        width: 100%;
+        justify-content: space-evenly; 
+        margin-left: 55px;
+        margin-top: 35px;
+        }
+            #aa {color:rgb(26, 160, 44); 
+                padding-left: 15px;
+                height: 150px;
+                width: 150px;
+            }
+            #bb {color:rgb(26, 160, 44); 
+                padding-left: 380px;
+                height: 250px;
+                width: 250px;
+            }
+            #cc {color:rgb(26, 160, 44); 
+                padding-left: 380px;
+                height: 150px;
+                width: 150px;
+            }
