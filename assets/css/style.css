@@ -93,12 +93,13 @@ body{
                     #aboutImg {
                         height: 200px;
                         width: 200px;
-                        margin:25px;
+                        margin: 25px 25px 25px 0;
                         border: solid gold 5px;
                     }
 
                     #aboutP {
                         margin-left: 35px;
+                        margin-top: 25px;
                     }
 
 /*projects section*/
