@@ -7,4 +7,4 @@ Hopefully soon I will have projects to update this with but untill then you get 
 
 <img src="assets/images/readMePortfolioImg.JPG" alt="image" style="max-width: 100%">
 
-
+Flex still doesn't work right.
